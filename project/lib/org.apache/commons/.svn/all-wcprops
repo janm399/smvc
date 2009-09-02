@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/neptune/!svn/ver/499/trunk/lib/org/apache/commons
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/neptune/!svn/ver/31/trunk/lib/org/apache/commons/commons-logging.jar
+END
+commons-beanutils-1.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/neptune/!svn/ver/499/trunk/lib/org/apache/commons/commons-beanutils-1.7.0.jar
+END
+commons-digester-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/neptune/!svn/ver/499/trunk/lib/org/apache/commons/commons-digester-1.6.jar
+END
