@@ -42,6 +42,10 @@
             <attribute name="URI" value="/WEB-INF/lib" />
             <url>jar://$APPLICATION_HOME_DIR$/lib/javaee.jar!/</url>
           </containerElement>
+          <containerElement type="library" name="Jackson" level="project">
+            <attribute name="method" value="1" />
+            <attribute name="URI" value="/WEB-INF/lib" />
+          </containerElement>
         </packaging>
       </configuration>
     </facet>
@@ -70,6 +74,7 @@
     <orderEntry type="library" name="Spring Framework" level="project" />
     <orderEntry type="library" name="Commons" level="project" />
     <orderEntry type="library" name="Jstl" level="project" />
+    <orderEntry type="library" name="Jackson" level="project" />
   </component>
 </module>
 

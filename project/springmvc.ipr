@@ -300,7 +300,7 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="" />
     <option name="MAXIMUM_HEAP_SIZE" value="128" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8" />
   <component name="IdProvider" IDEtalkID="E582E58B0D33B66D71B05CB76969ACDD" />
   <component name="InspectionProjectProfileManager">
     <option name="PROJECT_PROFILE" value="Project Default" />
@@ -476,7 +476,7 @@
   </component>
   <component name="ProjectFileVersion" converted="true" />
   <component name="ProjectKey">
-    <option name="state" value="project:///Users/janm/Sandbox/springmvc/springmvc.ipr" />
+    <option name="state" value="project:///Users/janm/Sandbox/smvc/project/springmvc.ipr" />
   </component>
   <component name="ProjectModuleManager">
     <modules>
@@ -489,6 +489,7 @@
   </component>
   <component name="ProjectRunConfigurationManager">
     <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="BROWSER_ID" value="system" />
       <JAVAEE_FACET FACET_ID="webapp/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
@@ -537,6 +538,11 @@
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value=" stop" />
         </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="JAVA_OPTS" />
+          <option name="VALUE" value="-Dfile.encoding=UTF-8" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
       </ConfigurationWrapper>
       <method>
         <option name="Make" value="true" />
@@ -650,6 +656,14 @@
       <CLASSES>
         <root url="jar://$PROJECT_DIR$/lib/javax.servlet/com.springsource.javax.servlet.jsp.jstl-1.2.0.jar!/" />
         <root url="jar://$PROJECT_DIR$/lib/org.apache/standard/com.springsource.org.apache.taglibs.standard-1.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Jackson">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/org.codehaus/jackson-core-asl-1.0.0.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.codehaus/jackson-mapper-asl-1.0.0.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />

@@ -11,10 +11,28 @@
 
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" p:synchronizeOnSession="true"/>
 
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/jsps/en_GB/"
-			p:suffix=".jsp" p:order="1"/>
-    <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver" p:prefix="/WEB-INF/jsps/en_GB/"
-			p:suffix=".jsp" p:order="2" p:viewClass="org.springframework.web.servlet.view.JstlView"/>
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver"
+            p:order="0">
+        <property name="mediaTypes">
+            <map>
+                <entry key="json" value="#{T(org.springframework.web.servlet.view.json.MappingJacksonJsonView).DEFAULT_CONTENT_TYPE}"/>
+            </map>
+        </property>
+    </bean>
 
+    <bean name="recipes/addOrEdit" class="org.springframework.web.servlet.view.json.MappingJacksonJsonView"/>
+    <bean name="recipes/index" class="org.springframework.web.servlet.view.json.MappingJacksonJsonView"/>
+
+    <bean class="org.springframework.web.servlet.view.BeanNameViewResolver"
+            p:order="1"/>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/jsps/en_GB/"
+			p:suffix=".jsp" p:order="2"/>
+    <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver" p:prefix="/WEB-INF/jsps/en_GB/"
+			p:suffix=".jsp" p:order="3" p:viewClass="org.springframework.web.servlet.view.JstlView"/>
+
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver"/>
+
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource"
+			p:basename="messages"/>
 
 </beans>
