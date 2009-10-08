@@ -474,7 +474,11 @@
   <component name="ProjectDetails">
     <option name="projectName" value="springmvc" />
   </component>
-  <component name="ProjectFileVersion" converted="true" />
+  <component name="ProjectFileVersion" converted="true">
+    <converter id="javaee-modules" />
+    <converter id="ror-modules" />
+    <converter id="SelenaRunConfToDiana" />
+  </component>
   <component name="ProjectKey">
     <option name="state" value="project:///Users/janm/Sandbox/smvc/project/springmvc.ipr" />
   </component>
@@ -623,14 +627,14 @@
   <component name="libraryTable">
     <library name="Spring Framework">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.beans-3.0.0.M4.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.context-3.0.0.M4.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.expression-3.0.0.M4.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.aop-3.0.0.M4.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.aspects-3.0.0.M4.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.asm-3.0.0.M4.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.context.support-3.0.0.M4.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.core-3.0.0.M4.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.beans-3.0.0.RC1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.context-3.0.0.RC1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.expression-3.0.0.RC1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.aop-3.0.0.RC1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.aspects-3.0.0.RC1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.asm-3.0.0.RC1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.context.support-3.0.0.RC1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.core-3.0.0.RC1.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -646,8 +650,8 @@
     </library>
     <library name="Spring Framework MVC">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.web.servlet-3.0.0.M4.jar!/" />
-        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.web-3.0.0.M4.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.web.servlet-3.0.0.RC1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/lib/org.springframework/org.springframework.web-3.0.0.RC1.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
