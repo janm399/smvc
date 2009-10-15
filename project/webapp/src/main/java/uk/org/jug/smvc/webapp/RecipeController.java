@@ -40,11 +40,11 @@ public class RecipeController {
     */
 
     @RequestMapping(value = "/recipes", method = RequestMethod.POST)
-    public String save(@ModelAttribute Recipe recipe, BindingResult result) {
+    public String save(@ModelAttribute Recipe boogybear, BindingResult result) {
         if (result.hasErrors()) {
             return "recipes/addOrEdit";
         } 
-        saveTheRecipe(recipe);
+        saveTheRecipe(boogybear);
         return "redirect:/recipes";
     }
 
